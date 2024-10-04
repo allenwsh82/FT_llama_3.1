@@ -34,7 +34,7 @@ def main(FLAGS):
         bf16=FLAGS.bf16, #change for CPU
         num_train_epochs=1,
         use_ipex=FLAGS.use_ipex, #change for CPU IPEX
-        no_cuda=True,
+        use_cpu=True,
         fp16_full_eval=False,
     )
 
