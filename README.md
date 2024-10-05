@@ -42,8 +42,11 @@ Has been refined to tackle complex tasks more efficiently than its predecessors.
 
 **4) Configure Training Parameters**
 Below are few training parameters which you can adjust as needed during fine-tuning process
+
 **Learning Rate**: The learning rate determines the size of the steps the model takes during training. A smaller learning rate may be useful to avoid overfitting.
+
 **Batch Size**: That’s the number of examples in each batch. A larger batch size means that model parameters are updated less frequently, but with lower variance.
+
 **Epochs**: An epoch refers to one full cycle through the training dataset. More epochs mean more training, but the risk of overfitting increases.
 
 **5) Start Fine-Tuning**
