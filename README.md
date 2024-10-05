@@ -79,19 +79,18 @@ Steps to run this demo:
 
 1) Clone this project into your local directory:
   
-   git clone https://github.com/allenwsh82/FT_llama_3.1.git/clipboard-copy-element
-
+   git clone https://github.com/allenwsh82/FT_llama_3.1.git --save @github/clipboard-copy-element
 2) Create a new virtual environment inside the project which you just clone:
 
-   python -m venv lab_env/clipboard-copy-element
+   python -m venv lab_env --save @github/clipboard-copy-element
    
 3) Activate the virtual environment which you just created:
 
-   source llm_chatbot_env/bin/activate/clipboard-copy-element
+   source llm_chatbot_env/bin/activate --save @github/clipboard-copy-element
 
 4) Install the dependencies by running:
 
-   pip install -r requirements.txt/clipboard-copy-element
+   pip install -r requirements.txt --save @github/clipboard-copy-element
 
 5) If you go to the inference_bf16_ipex.py script, you will notice where two lines of code are added to enable AMX AI Accelerator to boost up performance:
 
