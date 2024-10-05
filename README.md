@@ -129,6 +129,8 @@ model = ipex.optimize(model.eval(), dtype=torch.bfloat16, inplace=True, level="O
 ```
 python inference_bf16_ipex.py
 ```
+![inference_bf16](https://github.com/user-attachments/assets/6a727497-b2ee-4364-9420-6a0cccc080d0)
+
 
 **Inference with Fine-Tuned Model with INT4**
 
@@ -136,6 +138,8 @@ If you want to further optimize the inference performance, just quatize the mode
 ```
 python inference_INT4.py
 ```
+![inference_INT4](https://github.com/user-attachments/assets/eafbdaf4-d437-4eb8-949f-fa111b830ab1)
+
 
 **Let's test the fine-tuned model response with the following prompts:**
 ```
