@@ -66,4 +66,6 @@ Once you are satisfied with your model's performance, can you deploy the model i
 
 **Let's focus on Step 2 to 5 for now**
 
+**Supervised Fine-tuning (SFT): Train the model on your dataset using labeled examples where the desired outputs are provided. This is a common approach for tasks like text classification or question answering.**
+
 1) The dataset which we will be using for this fine-tuning exercise will be 
