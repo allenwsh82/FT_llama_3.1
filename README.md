@@ -72,3 +72,9 @@ Once you are satisfied with your model's performance, can you deploy the model i
 2) We will be using Supervised Fine-Tuning Trainer from HuggingFace (https://huggingface.co/docs/trl/en/sft_trainer)
 3) The base pretrained model that we will be using for this exercise will be from Meta Llama-3.1-8B (https://huggingface.co/meta-llama/Llama-3.1-8B)
 4) 
+
+
+**Let's test the fine-tuned model response with the following prompts:**
+1) What are some unique things about the 37th largest city in Japan?
+2) Can you tell me about ww2
+3) What is the largest city in the world?
