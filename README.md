@@ -39,3 +39,28 @@ With a significantly larger parameter set, 70B excels in dealing with extensive 
 **Llama 3.1 8B**
 Context: 128K, Speed: Fast
 Has been refined to tackle complex tasks more efficiently than its predecessors. It has improved in handling multi-step tasks with better alignment and response diversity.
+
+**4) Configure Training Parameters**
+Below are few training parameters which you can adjust as needed during fine-tuning process
+**Learning Rate**: The learning rate determines the size of the steps the model takes during training. A smaller learning rate may be useful to avoid overfitting.
+**Batch Size**: That’s the number of examples in each batch. A larger batch size means that model parameters are updated less frequently, but with lower variance.
+**Epochs**: An epoch refers to one full cycle through the training dataset. More epochs mean more training, but the risk of overfitting increases.
+
+**5) Start Fine-Tuning**
+Once everything has been set, we can initiate fine-tuning process. Depending on your dataset size, model complexity & hardware used (Xeon CPU, GPU or AI Accelerator Cards), fine tuning process can take anywhere from a few minutes to several hours.
+
+**6) Evaluate Model Performance**
+Monitoring metrics such as accuracy, loss, precision, and recall provide insights into the model's effectiveness and generalization capabilities. By assessing these metrics, you can gauge how well the fine-tuned model is performing on the task-specific data and identify potential areas for improvement.
+
+**7) Deploy Your Model**
+Once you are satisfied with your model's performance, can you deploy the model in production using several method for example:
+- Hugging Face Inference Endpoints
+- Amazon Sage Maker
+- Azure Machine Learning
+- FastAPI End Point
+- vLLM
+- TGI
+
+**Let's focus on Step 1 to 5 for now**
+
+1) 
