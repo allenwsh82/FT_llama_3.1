@@ -97,6 +97,14 @@ Steps to run this demo:
    pip install -r requirements.txt 
 ```
 
+**Supervised Fine-Tuning**
+
+5) Next, we are going to run the FT.sh file for the Supervised Fine Tuning using SFT Trainer Script from Hugging Face
+```
+   ./FT.sh
+```
+The total training time should take around 65 minutes   
+
 5) If you go to the inference_bf16_ipex.py script, you will notice where two lines of code are added to enable AMX AI Accelerator to boost up performance:
 
 
