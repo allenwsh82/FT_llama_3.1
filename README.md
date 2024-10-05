@@ -61,6 +61,6 @@ Once you are satisfied with your model's performance, can you deploy the model i
 - vLLM
 - TGI
 
-**Let's focus on Step 1 to 5 for now**
+**Let's focus on Step 2 to 5 for now**
 
-1) 
+1) The dataset which we will be using for this fine-tuning exercise will be 
