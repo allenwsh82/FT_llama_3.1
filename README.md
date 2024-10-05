@@ -71,7 +71,28 @@ Once you are satisfied with your model's performance, can you deploy the model i
 1) The dataset which we will be using for this fine-tuning exercise will be "mlabonne/guanaco-llama2-1k"
 2) We will be using Supervised Fine-Tuning Trainer from HuggingFace (https://huggingface.co/docs/trl/en/sft_trainer)
 3) The base pretrained model that we will be using for this exercise will be from Meta Llama-3.1-8B (https://huggingface.co/meta-llama/Llama-3.1-8B)
-4) 
+ 
+
+**Complete instruction on how to run python script on running Meta-Llama-3.1-8B-Instruct with Intel Xeon 4th Gen and Newer with IPEX**
+
+Steps to run this demo:
+
+1) Clone this project into your local directory:
+  
+   git clone https://github.com/allenwsh82/FT_llama_3.1.git
+
+2) Create a new virtual environment inside the project which you just clone:
+
+   python -m venv lab_env
+   
+3) Activate the virtual environment which you just created:
+
+   source llm_chatbot_env/bin/activate
+
+4) Install the dependencies by running: pip install -r requirements.txt
+
+5) If you go to the inference_bf16_ipex.py script, you will notice where two lines of code are added to enable AMX AI Accelerator to boost up performance:
+
 
 
 **Let's test the fine-tuned model response with the following prompts:**
