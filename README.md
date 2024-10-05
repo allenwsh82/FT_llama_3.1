@@ -103,7 +103,12 @@ Steps to run this demo:
 ```
    ./FT.sh
 ```
-The total training time should take around 65 minutes   
+The total training time should take around 67 minutes   
+
+![SFT](https://github.com/user-attachments/assets/0676fbca-b32a-4d88-8379-1b20b6f333a9)
+
+
+
 
 5) If you go to the inference_bf16_ipex.py script, you will notice where two lines of code are added to enable AMX AI Accelerator to boost up performance:
 
