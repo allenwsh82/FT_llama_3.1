@@ -70,4 +70,5 @@ Once you are satisfied with your model's performance, can you deploy the model i
 
 1) The dataset which we will be using for this fine-tuning exercise will be "mlabonne/guanaco-llama2-1k"
 2) We will be using Supervised Fine-Tuning Trainer from HuggingFace (https://huggingface.co/docs/trl/en/sft_trainer)
-3) 
+3) The base pretrained model that we will be using for this exercise will be from Meta Llama-3.1-8B (https://huggingface.co/meta-llama/Llama-3.1-8B)
+4) 
