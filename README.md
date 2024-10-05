@@ -78,8 +78,9 @@ Once you are satisfied with your model's performance, can you deploy the model i
 Steps to run this demo:
 
 1) Clone this project into your local directory:
-  
+```  
    git clone https://github.com/allenwsh82/FT_llama_3.1.git
+```
    
 2) Create a new virtual environment inside the project which you just clone:
 
