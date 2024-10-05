@@ -83,22 +83,28 @@ Steps to run this demo:
 ```
    
 2) Create a new virtual environment inside the project which you just clone:
-
+```  
    python -m venv lab_env 
+```
    
 3) Activate the virtual environment which you just created:
-
+```
    source llm_chatbot_env/bin/activate 
+```
 
 4) Install the dependencies by running:
-
+```
    pip install -r requirements.txt 
+```
 
 5) If you go to the inference_bf16_ipex.py script, you will notice where two lines of code are added to enable AMX AI Accelerator to boost up performance:
 
 
 
 **Let's test the fine-tuned model response with the following prompts:**
-1) Please tell me whether Facebook, Instagram or Youtube is better! Thanks.
-2) What is the difference between an ocean and a sea?
-3) Please write me a haiku about machine learning.
+```
+Please tell me whether Facebook, Instagram or Youtube is better! Thanks.
+```
+```
+What is the difference between an ocean and a sea?
+```
