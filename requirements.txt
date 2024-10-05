@@ -5,7 +5,7 @@ einops==0.7.0
 huggingface-hub==0.25.1
 intel-extension-for-pytorch==2.4.0
 intel-openmp==2024.1.0
-ipex-llm==2.1.0b20240329
+ipex-llm==2.1.0b2
 numpy==1.26.4
 pandas==2.2.1
 peft==0.10.0
