@@ -107,11 +107,23 @@ The total training time should take around 67 minutes
 
 ![SFT](https://github.com/user-attachments/assets/0676fbca-b32a-4d88-8379-1b20b6f333a9)
 
+6) You should be able to see a new folder created to save all the weights and biases of the fine-tuned model
 
+![Fine_Tuned_Directory](https://github.com/user-attachments/assets/d50cd86b-579d-4653-b626-82aa1a617d13)
 
+Good now you have a fine-tuned llama3.1-8B-Instruct model and next we need check on the accuracy of the fine-tuned model by giving a few prompt to the model.
 
-5) If you go to the inference_bf16_ipex.py script, you will notice where two lines of code are added to enable AMX AI Accelerator to boost up performance:
+**Inference with Fine-Tuned Model**
 
+7) If you go to the inference_bf16_ipex.py script, you will notice where two lines of code are added to enable AMX AI Accelerator to boost up performance:
+
+#################### #Use IPEX ####################
+
+import intel_extension_for_pytorch as ipex
+
+model = ipex.optimize(model.eval(), dtype=torch.bfloat16, inplace=True, level="O1", auto_kernel_selection=True)
+
+###################################################
 
 
 **Let's test the fine-tuned model response with the following prompts:**
