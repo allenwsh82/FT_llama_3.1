@@ -75,6 +75,6 @@ Once you are satisfied with your model's performance, can you deploy the model i
 
 
 **Let's test the fine-tuned model response with the following prompts:**
-1) What are some unique things about the 37th largest city in Japan?
-2) Can you tell me about ww2
-3) What is the largest city in the world?
+1) Please tell me whether Facebook, Instagram or Youtube is better! Thanks.
+2) What is the difference between an ocean and a sea?
+3) Please write me a haiku about machine learning.
