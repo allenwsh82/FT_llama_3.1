@@ -28,7 +28,7 @@ model = ipex.optimize(model.eval(), dtype=torch.bfloat16, inplace=True, level="O
 
 streamer = TextStreamer(tokenizer)
 
-print("This Demo is Powered by Intel Xeon 5th Gen 8592+ on Intel Tiber Developer Cloud")
+print("This Demo is Powered by Intel Xeon on Intel Tiber Developer Cloud")
 print()
 prompt=input("Please enter your prompt: ")
 print()
