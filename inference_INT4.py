@@ -74,7 +74,7 @@ et = time.time()
 elapsed_time = et - st
 
 response = outputs[0][input_ids.shape[-1]:]
-print(tokenizer.decode(response, skip_special_tokens=True))
+#print(tokenizer.decode(response, skip_special_tokens=True))
 
 print('Execution time:', elapsed_time, 'seconds')
 print()
