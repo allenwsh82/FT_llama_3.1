@@ -123,7 +123,7 @@ Good now you have a fine-tuned llama3.1-8B-Instruct model and next we need check
 
 **model = ipex.optimize(model.eval(), dtype=torch.bfloat16, inplace=True, level="O1", auto_kernel_selection=True)**
 
-#############################################################
+
 
 2) Now you have setup everything and you can run the script:
 ```
@@ -137,7 +137,7 @@ python inference_bf16_ipex.py
 If you want to further optimize the inference performance, just quatize the model to INT4 easily with Intel ipex-llm. 
 
 
-###############################################################################
+#########################IPEX-LLM#########################
 
 # With only one line to enable IPEX-LLM optimization on model to INT4 precision
 
@@ -145,7 +145,7 @@ If you want to further optimize the inference performance, just quatize the mode
 
 **model = optimize_model(model)**
 
-###############################################################################
+
 
 
 ```
