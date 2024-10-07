@@ -39,7 +39,7 @@ prompt=input("Please enter your prompt: ")
 print()
 
 messages = [
-    {"role": "system", "content": "You are a helpful AI assistant for travel tips and recommendations"},
+    {"role": "system", "content": "You are a helpful AI assistant"},
     {"role": "user", "content": prompt},
 ]
 
