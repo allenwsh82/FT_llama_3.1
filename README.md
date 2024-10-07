@@ -135,6 +135,14 @@ python inference_bf16_ipex.py
 **Inference with Fine-Tuned Model with INT4**
 
 If you want to further optimize the inference performance, just quatize the model to INT4 easily with Intel ipex-llm. 
+
+###############################################################################
+
+# With only one line to enable IPEX-LLM optimization on model to INT4 precision
+model = optimize_model(model)
+
+###############################################################################
+
 ```
 python inference_INT4.py
 ```
