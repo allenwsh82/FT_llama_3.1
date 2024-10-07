@@ -143,7 +143,7 @@ python inference_INT4.py
 
 **Let's test the fine-tuned model response with the following prompts:**
 ```
-Please tell me whether Facebook, Instagram or Youtube is better! Thanks. Answer in bullet format.
+Please tell me whether Facebook, Instagram or Youtube is better! Thanks. Put in bullet format.
 ```
 Below are one of dataset which was used for fine-tuning:
 
