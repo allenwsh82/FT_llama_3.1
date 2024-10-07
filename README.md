@@ -103,7 +103,7 @@ Steps to run this demo:
 ```
    ./FT.sh
 ```
-The total training time should take around 67 minutes   
+The total training time should take around 67 minutes (Intel SPR-56C) or 52 minutes (Intel EMR-64C)   
 
 ![SFT](https://github.com/user-attachments/assets/0676fbca-b32a-4d88-8379-1b20b6f333a9)
 
