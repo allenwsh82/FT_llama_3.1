@@ -68,7 +68,7 @@ Once you are satisfied with your model's performance, can you deploy the model i
 
 **Supervised Fine-tuning (SFT): Train the model on your dataset using labeled examples where the desired outputs are provided. This is a common approach for tasks like text classification or question answering.**
 
-1) The dataset which we will be using for this fine-tuning exercise will be "mlabonne/guanaco-llama2-1k"
+1) The dataset which we will be using for this fine-tuning exercise will be "mlabonne/guanaco-llama2-1k" (https://huggingface.co/datasets/mlabonne/guanaco-llama2)
 2) We will be using Supervised Fine-Tuning Trainer from HuggingFace (https://huggingface.co/docs/trl/en/sft_trainer)
 3) The base pretrained model that we will be using for this exercise will be from Meta Llama-3.1-8B (https://huggingface.co/meta-llama/Llama-3.1-8B)
  
