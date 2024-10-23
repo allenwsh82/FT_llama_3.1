@@ -54,7 +54,7 @@ st = time.time()
 
 outputs = model.generate(
     input_ids,
-    max_new_tokens=512,
+    max_new_tokens=256,
     eos_token_id=terminators,
     do_sample=True,
     temperature=0.6,
