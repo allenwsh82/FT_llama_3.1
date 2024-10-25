@@ -28,9 +28,11 @@ def main(FLAGS):
     tokenizer.pad_token = tokenizer.eos_token
     #model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True, use_auth_token=hf_token)
-    
-    print('setting training arguments')
 
+    print()
+    print('setting training arguments')
+    print()
+    
     training_arguments = TrainingArguments(
         output_dir="./fine_tuned_llama3.1-8B-Instruct",
         #output_dir="./fine_tuned_llama3.2-3B-Instruct",
@@ -41,8 +43,9 @@ def main(FLAGS):
         fp16_full_eval=False,
     )
 
+    print()
     print('Creating SFTTrainer')
-
+    print()
     trainer = SFTTrainer(
         model=model,
         train_dataset=dataset,
@@ -52,7 +55,7 @@ def main(FLAGS):
         args=training_arguments,
         packing=True,
     )
-
+    print()
     print('Starting Training')
     start = time.time()
 
