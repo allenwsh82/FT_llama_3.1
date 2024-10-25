@@ -28,6 +28,13 @@ model = optimize_model(model)
 
 ###############################################################################################################
 
+#Save the Quantized model
+
+#########################################################
+model.save_low_bit ("./Quantized_INT4_model")
+#########################################################
+
+
 # Load tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
 
