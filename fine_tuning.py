@@ -19,9 +19,11 @@ def main(FLAGS):
     hf_token = "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"   
     
     
-    model_name = "meta-llama/Llama-3.1-8B-Instruct"    #Make sure you set the correct path
+    #model_name = "meta-llama/Llama-3.1-8B-Instruct"    #Make sure you set the correct path
 
     #model_name = "meta-llama/Llama-3.2-3B-Instruct"    #Use this 3B model to save fine tuning time
+    
+    model_name = "meta-llama/Llama-3.2-1B-Instruct"   #Use this small 1B Model for workshop purpose
     
     #tokenizer = AutoTokenizer.from_pretrained(model_name)
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=hf_token)
@@ -34,7 +36,7 @@ def main(FLAGS):
     print()
     
     training_arguments = TrainingArguments(
-        output_dir="./fine_tuned_llama3.1-8B-Instruct",
+        output_dir="./fine_tuned_llama3.1-1B-Instruct",
         #output_dir="./fine_tuned_llama3.2-3B-Instruct",
         bf16=FLAGS.bf16, #change for CPU
         num_train_epochs=1,
@@ -65,7 +67,7 @@ def main(FLAGS):
     print(f'Time to tune {total}')    
   
     #save the fine tuned model into a folder
-    trainer.save_model("./fine_tuned_llama3.1-8B-Instruct")
+    trainer.save_model("./fine_tuned_llama3.1-1B-Instruct")
     #trainer.save_model("./fine_tuned_llama3.2-3B-Instruct")   #Please uncomment this if you want to use 3B model
 
 if __name__ == "__main__":
