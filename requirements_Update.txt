@@ -14,5 +14,5 @@ scipy
 tokenizers
 torch
 transformers
-trl
+trl==0.12.2
 py-cpuinfo
