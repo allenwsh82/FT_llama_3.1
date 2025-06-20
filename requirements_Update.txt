@@ -3,7 +3,7 @@ bitsandbytes
 datasets
 einops
 huggingface-hub
-#intel-extension-for-pytorch==2.4.0
+intel-extension-for-pytorch
 intel-openmp
 ipex-llm
 numpy
