@@ -7,7 +7,7 @@ import time
 from time import perf_counter
 
 #Make sure you download and set the correct path for the Llama-3-8B-Instruct that you downloaded
-model_path = "./fine_tuned_llama3.1-8B-Instruct"  
+model_path = "./fine_tuned_llama3.1-1B-Instruct"  
 
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(
