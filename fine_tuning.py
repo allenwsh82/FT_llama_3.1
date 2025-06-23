@@ -1,4 +1,4 @@
-# llama2-7b-hf-chat-tune.py
+# llama-3.2-1b-instruct model
 import time
 import argparse
 
