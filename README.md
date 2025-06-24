@@ -81,21 +81,33 @@ Steps to run this demo:
 ```  
    git clone https://github.com/allenwsh82/FT_llama_3.1.git
 ```
+<br/>
+<img width="500" alt="Lab1_3" src="https://github.com/user-attachments/assets/a6fb450e-7ef1-4cd2-948d-5d31a4656b8a" />
+<br/>
    
 2) Create a new virtual environment inside the project which you just clone:
 ```  
-   python -m venv lab_env 
+   python -m venv FT_env 
 ```
+<br/>
+<img width="500" alt="Lab1_4" src="https://github.com/user-attachments/assets/36db822a-dcfa-4d30-8039-72a34d963d20" />
+<br/>
    
 3) Activate the virtual environment which you just created:
 ```
-   source llm_chatbot_env/bin/activate 
+   source FT_env/bin/activate 
 ```
+<br/>
+<img width="500" alt="Lab1_5" src="https://github.com/user-attachments/assets/184983df-41a4-4d13-b012-80b1e14847ee" />
+<br/>
 
 4) Install the dependencies by running:
 ```
    pip install -r requirements.txt 
 ```
+<br/>
+<img width="500" alt="Lab1_7" src="https://github.com/user-attachments/assets/851dd70c-30a3-4ff1-84e0-f609dd296514" />
+<br/>
 
 **Supervised Fine-Tuning**
 
@@ -103,13 +115,17 @@ Steps to run this demo:
 ```
    ./FT.sh
 ```
+
+
 The total training time should take around 67 minutes (Intel SPR-56C) or 52 minutes (Intel EMR-64C)   
 
 ![SFT](https://github.com/user-attachments/assets/0676fbca-b32a-4d88-8379-1b20b6f333a9)
 
 6) You should be able to see a new folder created to save all the weights and biases of the fine-tuned model
 
+<br/>
 ![Fine_Tuned_Directory](https://github.com/user-attachments/assets/d50cd86b-579d-4653-b626-82aa1a617d13)
+<br/>
 
 Good now you have a fine-tuned llama3.1-8B-Instruct model and next we need check on the accuracy of the fine-tuned model by giving a few prompt to the model.
 
@@ -129,8 +145,9 @@ Good now you have a fine-tuned llama3.1-8B-Instruct model and next we need check
 ```
 python inference_bf16_ipex.py
 ```
+<br/>
 ![inference_bf16](https://github.com/user-attachments/assets/6a727497-b2ee-4364-9420-6a0cccc080d0)
-
+<br/>
 
 **Inference with Fine-Tuned Model with INT4**
 
