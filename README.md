@@ -1,6 +1,7 @@
 # FT_llama_3.1
 
-![Designer](https://github.com/user-attachments/assets/f89c473c-a3cf-404f-a7ef-9945e6050578)
+![A high-resolution animated-style illustration showing the fine-tuning process of the Meta LLaMA 3 2 ](https://github.com/user-attachments/assets/ef5875c7-422f-4be5-ba39-9171cdc496ab)
+
 
 **What is Llama 3.1?**
 
