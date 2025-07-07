@@ -7,7 +7,7 @@
 
 Llama 3.1 is the newer set of the Llama family of models trained and released recently by the Meta Organization. Meta has released 8 models with 3 base version models and 5 finetuned version models. The three base models include Llama 3.1 8B, Llama 3.1 70B, and the newly introduced and state-of-the-art open-source model Llama 3.1 405B. 
 
-**Why should we fine-tune Llama 3.1?**
+**Why should we fine-tune Llama 3.2?**
 
 This allows you to customize the model to better suit specific tasks and domains. But fine-tuning your model, you can improve the model's accuracy, relevance, efficiency. This made the fine-tuned model more effective for specialized task or applications for example customer service, content generation, sentiment analysis and others.
 
